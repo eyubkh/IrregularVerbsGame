@@ -1,7 +1,7 @@
 {
-  "name": "my-webpack-project",
+  "name": "irregular-verbs-game",
   "version": "1.0.0",
-  "description": "My webpack project",
+  "description": "It's a game for learn the irregular verbs in english",
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
