@@ -10,8 +10,11 @@
     - WebPack
     - Jest
     - Eslint
+    - Styled Component
   - BackEnd
     - Node (with Express)
+    - Jest
+    - Rest Client
 
 ### Technology idea
   - Local storage of the user data
