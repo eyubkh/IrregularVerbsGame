@@ -6,9 +6,10 @@
 ### Technologies
   - FrontEnd
     - React
+    - Babel
+    - WebPack
     - Jest
-    - Styled Component
-    - React spring 
+    - Eslint
   - BackEnd
     - Node (with Express)
 
