@@ -1,5 +1,4 @@
 // Generated using webpack-cli https://github.com/webpack/webpack-cli
-
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
@@ -15,7 +14,8 @@ const config = {
   },
   devServer: {
     open: true,
-    host: 'localhost'
+    host: 'localhost',
+    hot: true
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -70,5 +70,6 @@ module.exports = () => {
   } else {
     config.mode = 'development'
   }
+
   return config
 }

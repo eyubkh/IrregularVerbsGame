@@ -117,9 +117,9 @@ module.exports = {
   // rootDir: undefined,
 
   // A list of paths to directories that Jest should use to search for files in
-  // roots: [
-  //   '<rootDir>/src/'
-  // ],
+  roots: [
+    '<rootDir>/src/test/'
+  ],
 
   // Allows you to use a custom runner instead of Jest's default test runner
   // runner: "jest-runner",
@@ -137,7 +137,8 @@ module.exports = {
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-  testEnvironment: 'jsdom'
+  testEnvironment: 'jsdom',
+  automock: false
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
